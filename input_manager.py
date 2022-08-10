@@ -12,7 +12,7 @@ def main():
         if not db:
             flash('DB is required!')
         print(db)
-    return redirect(url_for('index.html'))
+    return render_template('index.html')
 
 
 if __name__ == '__main__':

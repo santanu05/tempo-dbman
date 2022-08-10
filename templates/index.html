@@ -6,11 +6,12 @@
 </head>
 <body>
 <h1 align="center" style="background-color: aquamarine; padding: 10px"> Tempo DB Manager </h1>
-<form method="post" action="">
+<form method="post" action="/execute_query">
     <select name="database">
-        <option>Select DB</option>
+        <option style="padding: 10px;">Select DB</option>
         <option>Yoda</option>
-    </select>
+    </select> <br/>
+    <textarea rows="20" cols="200" name="query" placeholder="Enter Query"></textarea>
     <button type="submit">Submit</button>
 </form>
 <table>

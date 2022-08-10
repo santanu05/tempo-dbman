@@ -13,7 +13,7 @@ def execute_query():
 
     sql_hostname = 'ula-prd-mysql-cluster-yoda.cluster-cvpukdkik4sz.ap-southeast-1.rds.amazonaws.com'
     sql_username = 'santanu.naskar@ula.app'
-    sql_password = 'tJrcG7I9S5XNh580'
+    sql_password = '<<PASS>>'
     sql_main_database = 'yoda_db'
     sql_port = 3306
     ssh_host = 'bastion.ula.app'
